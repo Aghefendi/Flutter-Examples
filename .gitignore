@@ -1,0 +1,108 @@
+# -------------------------------------------------
+# Flutter & Dart Defaults
+# -------------------------------------------------
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+**/generated_plugin_registrant.dart
+
+# Documentation & Coverage
+**/doc/api/
+coverage/
+
+# -------------------------------------------------
+# IDE / Editor
+# -------------------------------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+
+.vscode/*
+!.vscode/settings.json
+
+# Atom / Sublime
+.atom/
+.history/
+.svn/
+
+# -------------------------------------------------
+# System files
+# -------------------------------------------------
+.DS_Store
+*.lock
+*.log
+*.pyc
+*.swp
+
+# -------------------------------------------------
+# Android
+# -------------------------------------------------
+**/android/**/gradle-wrapper.jar
+.gradle/
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+*.jks
+local.properties
+**/.cxx/
+
+# Firebase / Google
+**/android/app/google-services.json
+
+# -------------------------------------------------
+# iOS / macOS
+# -------------------------------------------------
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/xcuserdata/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/App.framework
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/ServiceDefinitions.json
+
+**/macos/Flutter/ephemeral/
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/**/xcuserdata/
+
+# Firebase / Google
+**/ios/Runner/GoogleService-Info.plist
+
+# -------------------------------------------------
+# Windows
+# -------------------------------------------------
+**/windows/flutter/ephemeral/
+**/windows/flutter/generated_plugin_registrant.*
+**/windows/flutter/generated_plugins.cmake
+
+# -------------------------------------------------
+# Linux
+# -------------------------------------------------
+**/linux/flutter/ephemeral/
+**/linux/flutter/generated_plugin_registrant.*
+**/linux/flutter/generated_plugins.cmake
+
+# -------------------------------------------------
+# Env / Secrets (Extra security)
+# -------------------------------------------------
+.env
+.env.*
+*.secret.json
+secrets.json
+config/*.json
+config/*.yaml
+
+# -------------------------------------------------
+# Symbols
+# -------------------------------------------------
+app.*.symbols
