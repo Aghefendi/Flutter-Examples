@@ -75,6 +75,11 @@ local.properties
 **/macos/Flutter/GeneratedPluginRegistrant.swift
 **/macos/**/xcuserdata/
 
+# CocoaPods artifacts
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.podspec
+
 # Firebase / Google
 **/ios/Runner/GoogleService-Info.plist
 
@@ -102,7 +107,18 @@ secrets.json
 config/*.json
 config/*.yaml
 
+# Provide a safe example for collaborators (commit this)
+!.env.example
+
+# -------------------------------------------------
+# FVM (optional)
+# -------------------------------------------------
+.fvm/
+
 # -------------------------------------------------
 # Symbols
 # -------------------------------------------------
 app.*.symbols
+
+# Keep lockfile for apps so CI / reproducible builds match
+!/pubspec.lock
